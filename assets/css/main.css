@@ -37,6 +37,11 @@ body{
     color: var(--gray-text);
 }
 
+.btn-primary{
+    background-color: var(--theme-blue) !important;
+    border: 1px solid var(--theme-blue) !important;
+}
+
 
 .content-pane .card{
     margin-top: 15px;
@@ -47,9 +52,21 @@ body{
     transition: all 0.2s ease;
 }
  
+
+.content-pane .card h4{
+    color: var(--text-color);
+}
+.products-page .card h4{
+    color: #000;
+}
 .content-pane .card:hover h4{
      color: var(--theme-blue)
 }
+
+.f-14{
+    font-size: 14px;
+}
+
 
  
 
@@ -81,3 +98,10 @@ footer a{
 .main-navbar li .nav-link{
     padding: 1rem 1rem !important;
 }
+
+.article-excert{
+    height: 80px;
+}
+
+.fw-400{font-weight: 400}
+.f-18{font-size: 18px;}
