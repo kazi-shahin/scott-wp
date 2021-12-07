@@ -48,7 +48,7 @@ body{
     margin-top: 15px;
     margin-bottom: 15px;
     text-decoration: none;
-    color: #000;
+    color: #474747;
     cursor: pointer;
     transition: all 0.2s ease;
 }
@@ -58,7 +58,7 @@ body{
     color: var(--text-color);
 }
 .products-page .card h4{
-    color: #000;
+    color: #474747;
 }
 .content-pane .card:hover h4{
      color: var(--theme-blue)
@@ -119,13 +119,13 @@ body{
 
 
 .content-pane .card:hover {
-    box-shadow: 0 0 25px 0 rgba(146, 146, 146, 0.851);
+    box-shadow: 0 0 25px 0 rgba(146, 146, 146, 0.551);
 }
 
  
 
 .theme-shad{
-    box-shadow: 0 0 10px 0 #bad7f7d9;
+    box-shadow: 0 0 10px 0 #e5e5e5d9;
     border: 0 !important
     
 }
