@@ -19,6 +19,12 @@ body{
     background-color: var(--body-bg)
 }
 
+.bg-lighter{
+    background-color: #fff;
+}
+
+.fw-900{font-weight: 900;}
+
 .main-content-wrapper{
     min-height: calc(100vh - 145px)
 }
@@ -37,6 +43,10 @@ body{
 .topbar a{
     text-decoration: none;
     color: var(--gray-text);
+}
+
+.title{
+    color: var(--text-color);
 }
 
 .topbar a:hover,
@@ -109,7 +119,8 @@ hr{
 .products-page .card h4{
     color: #474747;
 }
-.content-pane .card:hover h4{
+ 
+.content-pane a.card:hover h4{
      color: var(--theme-blue)
 }
 
@@ -143,8 +154,8 @@ hr{
 .theme-widget .list-group{
      box-shadow: none;
 }
-.theme-widget .list-group h6{
-    color: var(--heading-color);
+.list-group-item h6{
+    color: var(--text-color) !important;
     font-size: 0.97rem;
 }
 .theme-widget .list-group-item{
@@ -155,13 +166,13 @@ hr{
 .theme-widget .list-group-item:last-child{
      border-bottom: 1px solid #73737321 !important;
 }
-.theme-widget a.list-group-item:hover{
+a.list-group-item:hover{
     background-color: #fff;
 }
-.theme-widget a.list-group-item:hover h6{
-    color: var(--theme-blue);
+a.list-group-item:hover h6{
+    color: var(--theme-blue) !important;
 }
-.theme-widget a.list-group-item:hover .opacity-50{
+a.list-group-item:hover .opacity-50{
     opacity: 0.9 !important
 }
  
@@ -200,11 +211,17 @@ footer a{
 
 .article-excert{
     height: 80px;
+    color: #868686;
+}
+
+.text-gray{
+    color: #868686;
 }
 
 .fw-400{font-weight: 400}
 .fw-500{font-weight: 500}
 .f-18{font-size: 18px;}
+.f-17{font-size: 17px;}
 
 
 .social-share-list{
