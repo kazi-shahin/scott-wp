@@ -54,6 +54,23 @@ body{
     background-color: var(--theme-blue) !important;
     border: 1px solid var(--theme-blue) !important;
 }
+.btn-outline-primary{
+    border: 1px solid var(--theme-blue);
+    color: var(--theme-blue);
+}
+.btn-outline-primary:hover{
+     background-color: var(--theme-blue) !important;
+    border: 1px solid var(--theme-blue);
+    color: #fff;
+}
+
+hr{
+    background-color: #a6a6a6;
+}
+
+.text-justify{
+    text-align: justify;
+}
 
 /* home page css */
 .hero-banner{
@@ -101,6 +118,9 @@ body{
 }
 .f-15{
     font-size: 0.95rem;
+}
+.f-16{
+    font-size: 1rem;
 }
 .opacity-50 {
     opacity: .50!important;
