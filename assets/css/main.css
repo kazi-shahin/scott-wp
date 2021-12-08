@@ -31,7 +31,19 @@ body{
 }
 .topbar{
     color: #5d5d5d;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+}
+
+.topbar a{
+    text-decoration: none;
+    color: var(--gray-text);
+}
+
+.topbar a:hover,
+.topbar a:active,
+.topbar a:focus
+{
+    color: var(--theme-blue);
 }
 .theme-dark{
     background-color: var(--dark-bg) !important;
