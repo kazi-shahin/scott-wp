@@ -11,11 +11,11 @@
 
 body{
     font-size: 0.97rem;
-    font-weight: 400;
+    font-weight: 400 !important;
     line-height: 1.5;
     color: var(--text-color);
     text-align: left;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
     background-color: var(--body-bg)
 }
 
@@ -31,7 +31,7 @@ body{
 }
 .topbar{
     color: #5d5d5d;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
 }
 
 .topbar a{
@@ -55,6 +55,25 @@ body{
     border: 1px solid var(--theme-blue) !important;
 }
 
+/* home page css */
+.hero-banner{
+    background-color: #282828;
+    min-height: 550px;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.hero-banner  .hero-caption{
+    padding: 3rem 3rem;
+}
+.hero-banner  .hero-caption .btn{
+    padding: 0.8rem 2rem;
+}
+.text-white-80 {
+    color: rgba(255,255,255,.8)!important;
+}
+ 
+/* end home page css */
+
 
 .content-pane .card{
     margin-top: 15px;
@@ -64,6 +83,7 @@ body{
     cursor: pointer;
     transition: all 0.2s ease;
 }
+ 
  
 
 .content-pane .card h4{
