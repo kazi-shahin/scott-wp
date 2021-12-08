@@ -294,12 +294,14 @@ footer{
     background-color: #00336a;
     color: #ffffff;
     border-radius: 4px;
+    transition: all 0.2s linear;
 }
 .footer-icons a:hover{
     color: var(--theme-blue);
+    background-color: #fff;
 }
 .brand-logo{
-    width: 80px;
+    height: 60px;
 }
 
 .links-widget a{
@@ -318,5 +320,26 @@ footer{
 
 .bg-darkblue{
     background-color: #00356e;
+}
+.brand-info{
+  margin-top: 20px;
+  min-height: 40px;
+}
+.brand-info .info-line{
+    padding-left: 40px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.brand-info .info-line span{
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 27px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #00336a;
+    border-radius: 4px;
+    color: #4ba1ff;
+    line-height: 33px;
 }
 /* end footer css  */
