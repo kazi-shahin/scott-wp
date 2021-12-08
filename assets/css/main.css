@@ -64,6 +64,10 @@ body{
     background-color: var(--theme-blue) !important;
     border: 1px solid var(--theme-blue) !important;
 }
+.btn-primary:hover{
+    background-color: #056ee1 !important;
+    border: 1px solid #056ee1 !important;
+}
 .btn-outline-primary{
     border: 1px solid var(--theme-blue);
     color: var(--theme-blue);
@@ -84,7 +88,7 @@ hr{
 
 /* home page css */
 .hero-banner{
-    background-color: #282828;
+    background-color: #101010c7;
     min-height: 550px;
     background-size: cover;
     background-blend-mode: overlay;
@@ -94,6 +98,11 @@ hr{
 }
 .hero-banner  .hero-caption .btn{
     padding: 0.8rem 2rem;
+    box-shadow: 0 0 35px #00000099;
+    border: 1px solid #3294ff !important;
+}
+.hero-banner  .hero-caption .btn:hover{
+    box-shadow: 0 0 35px #003f84;
 }
 .text-white-80 {
     color: rgba(255,255,255,.8)!important;
@@ -196,10 +205,7 @@ a.list-group-item:hover .opacity-50{
     background-color: #d6ebff;
 }
 
-footer a{
-    color: #fff;
-    font-style: italic;
-}
+
 
 .main-navbar-wrapper{
     padding-top: 0 !important;
@@ -266,3 +272,51 @@ footer a{
     border: 1px solid #73737321 !important;
     padding: 1rem
 }
+
+
+/* footer css  */
+footer a{
+    color: rgba(255,255,255,0.6);
+    font-style: italic;
+}
+
+footer{
+    background-color: var(--theme-blue);
+    color: rgba(255,255,255,0.7)
+}
+
+.footer-icons a{
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00336a;
+    color: #ffffff;
+    border-radius: 4px;
+}
+.footer-icons a:hover{
+    color: var(--theme-blue);
+}
+.brand-logo{
+    width: 80px;
+}
+
+.links-widget a{
+    display: block;
+    text-decoration: none;
+    font-style: normal;
+    padding: 5px 0;
+    border-bottom: 1px dashed #2372c8;
+}
+.links-widget h1{
+    margin-bottom: 15px;
+}
+.links-widget a:hover{
+   color: #fff;
+}
+
+.bg-darkblue{
+    background-color: #00356e;
+}
+/* end footer css  */
